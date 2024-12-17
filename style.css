@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background-color: #e7f0f1;
+}
+
+.header {
+  background: url(bmw\ 2.jpg) no-repeat center center;
+  height: 500px;
+  width: 650px;
+  background-size: cover;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+
+.header h1 {
+  font-family: Lacquer;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(245, 245, 13);
+}
+
+.models {
+  width: 50%;
+  padding: 10px 20px 10px 20px;
+  margin: 20px auto;
+  align-self: center;
+  overflow: auto;
+  /*background-color: aqua;*/
+}
+
+#models_h2 {
+  margin: 20px 0;
+  font-family: Bricolage Grotesque;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#models_p {
+  font-family: Bricolage Grotesque;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*.history_origins {
+  text-align: left;
+  background-color: rgb(240, 162, 162);
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+  font-family: Bricolage Grotesque;
+}*/
+
+.spectrum div {
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-family: Bricolage Grotesque;
+  overflow: auto;
+}
+
+.spectrum h3{
+  line-height: 2em;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+
+.history_origins {
+  background-color: #683C2C;
+}
+.Performance_Engineering {
+  background-color: #4C352D;
+}
+.Iconic_Models {
+  background-color: #352926;
+}
+.Features {
+  background-color: #141212;
+}
+
+.types {
+  margin-top: 10px;
+}
+
+.imgg {
+  background: url(m2.jpg) no-repeat center center;
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 33px; 
+}
+
+.type_1_text {
+  text-align: center;
+}
+
+.type_1_text h1 {
+  margin-bottom: 10px;
+  font-family: Bricolage Grotesque;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(23, 23, 22);
+}
+
+.type_1_text p {
+  font-family: Bricolage Grotesque;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.imgg_2 {
+  background: url(m3.jpg) no-repeat center center;
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 33px; 
+}
+
+.imgg_3 {
+  background: url(m4.jpg) no-repeat center center;
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 33px; 
+}
